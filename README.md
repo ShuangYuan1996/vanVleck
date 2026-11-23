@@ -161,6 +161,17 @@ release is on Zenodo) and the accompanying article:
 Shuang Yuan, Benjamin J. Powell and Nadeem Natt, School of Mathematics and Physics,
 The University of Queensland, Australia.
 
+## AI-assistance statement
+
+The core algorithms of vanVleck (the classification of the inner coordination sphere into the
+point groups, the symmetry-adapted standard frames, the definitions of the van Vleck coordinates
+and the symmetry relations between them) were developed by the authors and will be described in
+a forthcoming paper (S. Yuan, N. Natt and B. J. Powell, *in preparation*; see [Citing](#citing)).
+The graphical user interface, the implementation of these algorithms in code, the tests and the
+documentation were written by Claude, an AI model developed by Anthropic, under the direction of
+the authors. The authors checked the results against independent calculations and published
+data, and take full responsibility for the program and its results.
+
 ## License
 
 Copyright © 2026 The University of Queensland. vanVleck is released under the
