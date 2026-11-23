@@ -6,11 +6,11 @@ authors:
   - family-names: Yuan
     given-names: Shuang
     affiliation: "School of Mathematics and Physics, The University of Queensland"
-  - family-names: Powell
-    given-names: Benjamin J.
-    affiliation: "School of Mathematics and Physics, The University of Queensland"
   - family-names: Natt
     given-names: Nadeem
+    affiliation: "School of Mathematics and Physics, The University of Queensland"
+  - family-names: Powell
+    given-names: Benjamin J.
     affiliation: "School of Mathematics and Physics, The University of Queensland"
 version: 1.0.0
 date-released: 2026-11-23

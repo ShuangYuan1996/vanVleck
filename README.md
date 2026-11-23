@@ -158,7 +158,7 @@ release is on Zenodo) and the accompanying article:
 
 ## Authors
 
-Shuang Yuan, Benjamin J. Powell and Nadeem Natt, School of Mathematics and Physics,
+Shuang Yuan, Nadeem Natt and Benjamin J. Powell, School of Mathematics and Physics,
 The University of Queensland, Australia.
 
 ## AI-assistance statement
