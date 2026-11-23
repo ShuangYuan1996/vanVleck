@@ -785,8 +785,8 @@ class MainWindow(QMainWindow):
         QMessageBox.about(self, f"About {__app_name__}",
             f"<h3>{__app_name__} {__version__}</h3>"
             "<p>Point-group symmetry and van Vleck coordinates Q<sub>1</sub>–Q<sub>15</sub> of "
-            "pseudo-octahedral ML<sub>6</sub> coordination spheres, with OctaDist-type distortion "
-            "parameters (ζ, Δ, Σ, Θ).</p>"
+            "pseudo-octahedral ML<sub>6</sub> coordination spheres, with the commonly used "
+            "distortion parameters (ζ, Δ, Σ, Θ).</p>"
             f"<p><a href='{__url__}'>{__url__}</a></p>"
             "<p>Released under the MIT License. If you use this program in published work, "
             "please cite it as described in the README / CITATION.cff.</p>")

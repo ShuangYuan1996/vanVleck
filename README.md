@@ -6,7 +6,7 @@ vanVleck is a desktop program (Python + PySide6) for spin-crossover and other ps
 coordination compounds. It reads CIF and XYZ files, lets you click a complex, determines the
 point group of its inner coordination sphere (the metal and its six donor atoms), places that
 sphere in a symmetry-adapted standard frame, and computes the 15 van Vleck coordinates Q₁–Q₁₅
-together with OctaDist-type distortion parameters.
+together with the distortion parameters commonly used in experimental studies.
 
 ![Main window](docs/main_window.png)
 
@@ -122,7 +122,7 @@ the masses changes only Q₁₀–Q₁₅ and |Q|.
 derived from the invariant subspace of its standard subgroup of O_h and checked against the
 computed values.
 
-**Distortion parameters** (definitions as in OctaDist [2]):
+**Distortion parameters** (standard definitions, see e.g. ref. [2]):
 ζ = Σ|dᵢ − ⟨d⟩| over the six bonds; Δ = (1/6) Σ((dᵢ − ⟨d⟩)/⟨d⟩)²;
 Σ = Σ|φᵢ − 90°| over the 12 cis angles; Θ = Σ|θᵢ − 60°| over the 24 torsion angles of the four
 pairs of opposite faces (orthogonal projection, averaged over both faces of each pair);
