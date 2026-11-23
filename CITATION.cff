@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "vanVleck: point-group symmetry and van Vleck coordinates of pseudo-octahedral complexes"
+type: software
+authors:
+  - family-names: Yuan
+    given-names: Shuang
+    affiliation: "School of Mathematics and Physics, The University of Queensland"
+  - family-names: Powell
+    given-names: Benjamin J.
+    affiliation: "School of Mathematics and Physics, The University of Queensland"
+  - family-names: Natt
+    given-names: Nadeem
+    affiliation: "School of Mathematics and Physics, The University of Queensland"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/ShuangYuan1996/vanVleck"
+keywords:
+  - spin crossover
+  - coordination chemistry
+  - point group
+  - van Vleck coordinates
+  - octahedral distortion
+  - crystallography
+# After the first GitHub release has been archived on Zenodo, add:
+# doi: 10.5281/zenodo.XXXXXXX
