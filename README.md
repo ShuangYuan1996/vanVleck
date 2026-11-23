@@ -92,15 +92,31 @@ centre is on the metal. Within these constraints the rotation that best aligns t
 | Q₇ | T₂u | (z₁ − z₂ + z₄ − z₅)/2 |
 | Q₈ | T₂u | (y₃ + y₆ − y₁ − y₄)/2 |
 | Q₉ | T₂u | (x₃ + x₆ − x₅ − x₂)/2 |
-| Q₁₀–Q₁₂ | T₁u(I) | z, y, x components, mass-weighted |
-| Q₁₃–Q₁₅ | T₁u(II) | z, y, x components, mass-weighted |
+| Q₁₀ | T₁u(I) | [3(z₁ + z₂ + z₄ + z₅) − 4(z₃ + z₆) − 4z₀]/(2√21) |
+| Q₁₁ | T₁u(I) | [3(y₁ + y₃ + y₄ + y₆) − 4(y₂ + y₅) − 4y₀]/(2√21) |
+| Q₁₂ | T₁u(I) | [3(x₂ + x₃ + x₅ + x₆) − 4(x₁ + x₄) − 4x₀]/(2√21) |
+| Q₁₃ | T₁u(II) | (2z₀ − z₃ − z₆)/√6 |
+| Q₁₄ | T₁u(II) | (2y₀ − y₂ − y₅)/√6 |
+| Q₁₅ | T₁u(II) | (2x₀ − x₁ − x₄)/√6 |
 
-For the T₁u coordinates (z components shown; y and x follow by permutation), with M₀ the metal mass
-and M the donor mass (both 1 by default, editable in the program):
+The table gives Q₁₀–Q₁₅ for equal masses, M₀ = M = 1, which is the program default.
+
+**Mass-weighted T₁u coordinates.** Q₁–Q₉ involve only the six donors and do not depend on the
+masses. The two sets of T₁u coordinates, however, have the same symmetry as a translation of the
+whole complex, so they must be defined orthogonal to the centre-of-mass motion, and this makes
+them mass-dependent. In the program the metal mass M₀ and the donor mass M can be set to any
+positive values (for example the atomic masses, M₀ = 55.85 and M = 14.01 for FeN₆); all six donors
+are given the same mass M, even if they are different elements. For general M₀ and M
+(z components shown; y and x follow by the same permutation as in the table):
 
 Q₁₀ = √[4M/((M₀+6M)(M₀+2M))] · [ (M₀+2M)/(4√M)·(z₁+z₂+z₄+z₅) − √M·(z₃+z₆) − √M₀·z₀ ]
 
 Q₁₃ = √[2M/(M₀(M₀+2M))] · [ √M₀·z₀ − M₀/(2√M)·(z₃+z₆) ]
+
+For any M₀ and M, the coefficient vectors of Q₁–Q₁₅ are orthonormal, and those of Q₁₀–Q₁₅ are
+orthogonal to the mass-weighted translation, whose coefficient on atom n is proportional to √mₙ
+(m₀ = M₀, m₁…m₆ = M). With M₀ = M = 1 the general expressions reduce to the table above. Changing
+the masses changes only Q₁₀–Q₁₅ and |Q|.
 
 |Q| = √(Q₂² + … + Q₁₅²). The zero / equal / opposite relations implied by each point group are
 derived from the invariant subspace of its standard subgroup of O_h and checked against the
